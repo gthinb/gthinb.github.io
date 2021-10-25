@@ -62,13 +62,13 @@ button{
 }
 
 
-.title,.desc{
+.desc{
 text-transform: uppercase;
 
 }
 
 .title {
-font-family: 'Vollkorn', sans-serif;
+    font-family: 'Playfair Display SC', serif;
 font-size: 5em;
 margin-top: 50%;
 letter-spacing: 10px;
