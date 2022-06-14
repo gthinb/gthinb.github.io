@@ -2,7 +2,7 @@ html,body{
   height: 100%;
   text-align: center;
   background: #000;
-  font-family: 'arial', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 
   color: #fff;
   position: relative;
@@ -39,10 +39,10 @@ input{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+50,0.75+100 */
   background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#000;; /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#000;; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#000;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(top bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#000;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
 
-  background-position: top center;
+  background-position: right center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
@@ -52,32 +52,20 @@ input{
   background-size:  contain;
 }
 
-.location{
-   display: flex;
-   align-items:center;
-}
-
-button{
-  border:none;
-}
-
-
-.desc{
-text-transform: uppercase;
-
-}
 
 .title {
-    font-family: 'Playfair Display SC', serif;
-font-size: 5em;
-margin-top: 50%;
-letter-spacing: 10px;
-text-shadow: 0px 2px 6px rgba(255, 255, 255, 0.5);
+font-size: 6vw;
+text-align: left;
+margin-top: 30%;
+font-weight: 600;
+
 }
 
 .desc {
-letter-spacing: 2px;
-font-size: 1.2em;
+
+font-size: 4vw;
+text-align: left;
+color: #666666;
 }
 
 .contactButton{
@@ -94,127 +82,51 @@ font-size: 1.2em;
   font-size: 20px;
   background: none;
   cursor: pointer;
+    padding: 2vw 0;
   }
 
-.contactButton button,#mailId,#requestButton{
-  padding: 10px 0;
-  }
 
-.location i{
-  text-align: right;
-  }
-
-.location h5{
-  text-align: left !important;
-  padding-left: 0;
-  }
-
-form,.location,.contactButton{
-  margin-top:2em;
+.material-symbols-outlined{
+    font-size: 2vw !important;
 }
 
-.chatBot{
-
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-
-  align-items: center;
-  justify-content: center;
-
+.material-symbols-outlined:hover {
+    -webkit-transition: color 1s;
+    transition: color 1s;
+  color: #fff;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
 
-.chatBot img{
-  //float: left;
-  margin-left: 5px;
-  height: 20px;
-}
-.phone{
-  height: 26px;
-
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-
-  align-items: center;
-  justify-content: center;
-}
-.phone small,.chatBot small{
-  //float: left;
-  height: 26px;
-  margin-left: 5px;
-  line-height: 26px;
-  font-size: 14px;
-}
-
-.phone-container,.mail{
-/*  border-left: 1px solid #ddd;*/
-}
-
-
-
-#mailId{
-  text-align: center;
-  background: none;
-  border:none;
-  border-bottom:#CCC 1px dashed;
-}
-
-#requestButton{
-  margin-top: 10px;
-  border-radius: 6px 6px 6px 6px;
-  -moz-border-radius: 6px 6px 6px 6px;
-  -webkit-border-radius: 6px 6px 6px 6px;
-  border:2px solid #fff;
-  background: none;
-  font-size: 0.875em;
-  letter-spacing: 1px;
-   cursor:default !important;
-  
-}
-#requestButton.activebutton{
-	background:#fff;
-	color:#000;
-	cursor: pointer !important;
-}
 
 .footer {
   margin-top: 2em;
-  padding-bottom: 10px;
-  font-style: 0.750em;
+  padding-bottom: 100px;
+
 /*  background-color: yellow;*/
 }
 
 .footer  a{
   padding-top: 10px;
-  text-align: center;
+  text-align: left;
   color: #999;
+
+    font-size: 1vw;
 /*  background-color: red;*/
+
 }
 
-.footer-link-top a{
-
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
+.footer  a:hover {
+    -webkit-transition: color 1s;
+    transition: color 1s;
+    color: #fff;
 }
 
 
-.footer-link-bottom a{
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-}
 
-.footer-link-bottom a .small{
-  text-align: center;
-}
 
 /* Fade-in */
 
@@ -248,42 +160,93 @@ form,.location,.contactButton{
  }
 
  @media (max-width: 1200px) {
-	.title{font-size: 5.5em;}
+	.title{}
 
-	.footer-link-bottom a:first-child {
-  margin-left:-10%;
-	}
+   .footer a{  font-size: 1.5vw;}
+
+   .material-symbols-outlined{font-size: 3vw !important;}
+
 
 }
 
 
  @media (max-width: 992px) {
-	.title{font-size:4.5em;}
+   .material-symbols-outlined{font-size: 4vw !important;}
 
-	.footer-link-bottom a:first-child {
-  margin-left:0;
-	}
+	.title{
 
-	.footer{
-	  border-top: 1px solid #555;}
+    text-align: center;
+        }
 
-	  form,.location{
-	  margin-top: 3%;}
+  .desc {   
+    text-align: center;
+        }
 
-	  .contactButton{
-	  margin-top: 6%;}
+  .footer a{   
+    text-align: center;
+
+  font-size: 2.5vw;
+    padding: .5vw 0;
+        }
+
+    .container-bg{
+
+ background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(top bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  -webkit-background-size:  contain;
+  -moz-background-size:  contain;
+  -o-background-size:  contain;
+  background-size:  contain;
+}
+
+	
 
 }
 
  @media (max-width: 768px) {
-	.title{font-size:3.5em;letter-spacing: 12px;}
-  .phone-icon{padding-left: 0;
-  margin-left: 0;}
-  .mail{
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
+
+     .material-symbols-outlined{font-size: 6vw !important;}
+
+  .title{font-size: 15vw;
+
+    text-align: center;
+        }
+
+  .desc {   font-size: 8vw;
+    text-align: center;
+    margin-bottom: 5vw;
+        }
+
+  .footer a{   
+    text-align: center;
+
+    font-size: 3vw;
+    padding: 2vw 0;
+        }
+
+  .container-bg{
+
+ background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(top bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  -webkit-background-size:  contain;
+  -moz-background-size:  contain;
+  -o-background-size:  contain;
+  background-size:  contain;
+}
+
+
+  
 
 }
