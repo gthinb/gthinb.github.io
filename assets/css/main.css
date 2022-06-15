@@ -160,7 +160,7 @@ color: #666666;
  }
 
  @media (max-width: 1200px) {
-	.title{}
+	.title{color: blue;}
 
    .footer a{  font-size: 1.5vw;}
 
@@ -174,7 +174,7 @@ color: #666666;
    .material-symbols-outlined{font-size: 4vw !important;}
 
 	.title{
-
+color: yellow;
     text-align: center;
         }
 
@@ -214,7 +214,7 @@ color: #666666;
      .material-symbols-outlined{font-size: 6vw !important;}
 
   .title{font-size: 15vw;
-
+color:red;
     text-align: center;
         }
 
