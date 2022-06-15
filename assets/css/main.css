@@ -6,7 +6,7 @@ html,body{
 
   color: #fff;
   position: relative;
-  min-height:500px;
+ 
 }
 
 
@@ -20,7 +20,7 @@ a:hover{
   color: inherit;
 }
 input{
-	outline:none;
+  outline:none;
 }
 
 .container{
@@ -56,30 +56,24 @@ input{
 .title {
 font-size: 6vw;
 text-align: left;
-margin-top: 30%;
 font-weight: 600;
-
 }
 
 .desc {
-
+margin-top:0;
 font-size: 4vw;
 text-align: left;
 color: #666666;
+margin-bottom: 5vw;
 }
 
-.contactButton{
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  font-size: 0.875em;
-}
+
 
 /*#requestButton:hover{
   background: #fff;
 }*/
 
 .contactButton a{
-  font-size: 20px;
   background: none;
   cursor: pointer;
     padding: 2vw 0;
@@ -103,9 +97,7 @@ color: #666666;
 
 
 .footer {
-  margin-top: 2em;
-  padding-bottom: 100px;
-
+  margin-bottom: 3vw;
 /*  background-color: yellow;*/
 }
 
@@ -153,14 +145,12 @@ color: #666666;
 
 @media (min-width: 1200px) {
 
-.footer-link-bottom a:first-child {
-  margin-left:-10%;
-	}
+
 
  }
 
  @media (max-width: 1200px) {
-	.title{color: blue;}
+  .title{color: blue;}
 
    .footer a{  font-size: 1.5vw;}
 
@@ -173,7 +163,7 @@ color: #666666;
  @media (max-width: 992px) {
    .material-symbols-outlined{font-size: 4vw !important;}
 
-	.title{
+  .title{
 color: yellow;
     text-align: center;
         }
@@ -205,7 +195,7 @@ color: yellow;
   background-size:  contain;
 }
 
-	
+  
 
 }
 
@@ -218,14 +208,16 @@ color:red;
     text-align: center;
         }
 
-  .desc {   font-size: 8vw;
+  .desc {   font-size: 7vw;
     text-align: center;
-    margin-bottom: 5vw;
         }
+
+.footer{
+  margin-bottom: 5vw;
+}
 
   .footer a{   
     text-align: center;
-
     font-size: 4vw;
     padding: 2vw 0;
         }
