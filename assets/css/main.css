@@ -226,7 +226,7 @@ color: #666666;
   .footer a{   
     text-align: center;
 
-    font-size: 3vw;
+    font-size: 4vw;
     padding: 2vw 0;
         }
 
@@ -240,10 +240,10 @@ color: #666666;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
-  -webkit-background-size:  contain;
-  -moz-background-size:  contain;
-  -o-background-size:  contain;
-  background-size:  contain;
+  -webkit-background-size:  cover;
+  -moz-background-size:  cover;
+  -o-background-size:  cover;
+  background-size:  cover;
 }
 
 
