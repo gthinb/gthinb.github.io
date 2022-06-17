@@ -145,7 +145,7 @@ border-top: 1px solid #333;
     -webkit-transition: opacity 1s ease-in;
     transition: opacityl 1s ease-in;
  
- height: 5vw !important;
+ height: 5.5vw !important;
 
 
 
@@ -314,18 +314,14 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
         }
 
   .contactButton {
-    margin-bottom: 12vw;
+    margin-bottom: 14vw;
   }
 
 .footer{
   margin-bottom: 5vw;
 }
 
-  .footer-desktop a{   
-    text-align: center;
-    font-size: 4vw;
-    padding: 2.5vw 0;
-        }
+
 
   .container-bg{
 
