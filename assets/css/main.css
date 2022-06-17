@@ -83,20 +83,14 @@ margin-bottom: 5vw;
 .material-symbols-outlined{
     font-size: 2vw !important;
     color: #ddd;
-
-     -webkit-transition: color 1s ease-out;
+   -webkit-transition: color 1s ease-out;
   -moz-transition: color 1s ease-out;
   -o-transition: color 1s ease-out;
   transition: color 1s ease-out;
 }
 
 .material-symbols-outlined:hover {
-
   color: #fff;
-
-
-
-
   font-variation-settings:
   'FILL' 1,
   'wght' 400,
@@ -145,9 +139,8 @@ border-top: 1px solid #333;
     -webkit-transition: opacity 1s ease-in;
     transition: opacityl 1s ease-in;
  
- height: 5.5vw !important;
+ height: 6vw !important;
   flex: 1;
-
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -156,7 +149,6 @@ border: 1px solid red;
 
 .footer-mobile a:hover{
        opacity: 100%;
-
 }
 
 
@@ -166,6 +158,7 @@ border: 1px solid red;
 
 .link-instagram {
   background: url(../images/icn-instagram.svg) no-repeat center; /* FF3.6-15 */
+  height: 6vw !important;
 }
 
 .link-twitter {
@@ -191,11 +184,6 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 /*.link-linkedin,.link-instagram,.link-twitter,.link-behance,.link-soundcloud,.link-spotify {
   opacity: 40%;
 }*/
-
-
-
-
-
 
 
 
@@ -314,7 +302,8 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
   margin-bottom: 5vw;
 }
 
-
+.material-symbols-outlined{
+  font-size: 3vw !important;}
 
   .container-bg{
 
