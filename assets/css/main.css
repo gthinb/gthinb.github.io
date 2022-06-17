@@ -146,22 +146,15 @@ border-top: 1px solid #333;
     transition: opacityl 1s ease-in;
  
  height: 5.5vw !important;
-
-
-
-
   flex: 1;
 
   display: flex;
   justify-content: center;
   flex-direction: column;
-
-
-
+border: 1px solid red;
 }
 
-.footer-mobile>a:hover{
-
+.footer-mobile a:hover{
        opacity: 100%;
 
 }
