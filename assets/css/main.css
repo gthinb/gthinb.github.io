@@ -82,12 +82,21 @@ margin-bottom: 5vw;
 
 .material-symbols-outlined{
     font-size: 2vw !important;
+    color: #ddd;
+
+     -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
 }
 
 .material-symbols-outlined:hover {
-    -webkit-transition: color 1s;
-    transition: color 1s;
+
   color: #fff;
+
+
+
+
   font-variation-settings:
   'FILL' 1,
   'wght' 400,
@@ -96,12 +105,12 @@ margin-bottom: 5vw;
 }
 
 
-.footer {
+.footer-desktop {
   margin-bottom: 3vw;
 /*  background-color: yellow;*/
 }
 
-.footer  a{
+.footer-desktop  a{
   padding-top: 10px;
   text-align: left;
   color: #999;
@@ -111,11 +120,88 @@ margin-bottom: 5vw;
 
 }
 
-.footer  a:hover {
+.footer-desktop  a:hover {
     -webkit-transition: color 1s;
     transition: color 1s;
     color: #fff;
 }
+
+.footer-mobile{
+border-top: 1px solid #333;
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 4vw;
+
+ flex: 1;
+
+}
+
+
+.footer-mobile a{
+   opacity: 30%;
+    -moz-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+    -webkit-transition: opacity 1s ease-in;
+    transition: opacityl 1s ease-in;
+ 
+ height: 5vw !important;
+
+
+
+
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+
+}
+
+.footer-mobile>a:hover{
+
+       opacity: 100%;
+
+}
+
+
+.link-linkedin {
+  background: url(../images/icn-linkedin.svg) no-repeat center; /* FF3.6-15 */
+}
+
+.link-instagram {
+  background: url(../images/icn-instagram.svg) no-repeat center; /* FF3.6-15 */
+}
+
+.link-twitter {
+background: url(../images/icn-twitter.svg) no-repeat center; /* FF3.6-15 */
+}
+
+
+.link-behance {
+background: url(../images/icn-behance.svg) no-repeat center; /* FF3.6-15 */
+}
+
+
+
+.link-soundcloud {
+background: url(../images/icn-soundcloud.svg) no-repeat center; /* FF3.6-15 */
+}
+
+
+.link-spotify {
+background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
+}
+
+/*.link-linkedin,.link-instagram,.link-twitter,.link-behance,.link-soundcloud,.link-spotify {
+  opacity: 40%;
+}*/
+
+
+
+
 
 
 
@@ -145,13 +231,19 @@ margin-bottom: 5vw;
 
 @media (min-width: 1200px) {
 
-
+.footer-mobile{
+  display: none;
+}
 
  }
 
  @media (max-width: 1200px) {
 
-   .footer a{  font-size: 1.5vw;}
+  .footer-mobile{
+  display: none;
+}
+
+   .footer-desktop a{  font-size: 1.5vw;}
 
    .material-symbols-outlined{font-size: 3vw !important;}
 
@@ -160,6 +252,9 @@ margin-bottom: 5vw;
 
 
  @media (max-width: 992px) {
+  .footer-mobile{
+  display: none;
+}
    .material-symbols-outlined{font-size: 4vw !important;}
 
   .title{
@@ -170,7 +265,7 @@ margin-bottom: 5vw;
     text-align: center;
         }
 
-  .footer a{   
+  .footer-desktop a{   
     text-align: center;
 
   font-size: 2.5vw;
@@ -198,8 +293,15 @@ margin-bottom: 5vw;
 }
 
  @media (max-width: 768px) {
+.footer-desktop{
+  display: none;
+}
 
-     .material-symbols-outlined{font-size: 6vw !important;}
+.footer-mobile{
+  display: block;
+
+}
+     .material-symbols-outlined{font-size: 7vw !important;}
 
   .title{font-size: 15vw;
     text-align: center;
@@ -211,11 +313,15 @@ margin-bottom: 5vw;
     color: #aaa;
         }
 
+  .contactButton {
+    margin-bottom: 12vw;
+  }
+
 .footer{
   margin-bottom: 5vw;
 }
 
-  .footer a{   
+  .footer-desktop a{   
     text-align: center;
     font-size: 4vw;
     padding: 2.5vw 0;
@@ -223,9 +329,9 @@ margin-bottom: 5vw;
 
   .container-bg{
 
- background: -moz-linear-gradient(top, rgba(0,0,0,0) 40%, rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(top bottom, rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ background: -moz-linear-gradient(top, rgba(0,0,0,0) 40%, rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;/* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(top bottom, rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
   background-position: top center;
   background-repeat: no-repeat;
