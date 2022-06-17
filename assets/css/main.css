@@ -144,7 +144,7 @@ border-top: 1px solid #333;
   display: flex;
   justify-content: center;
   flex-direction: column;
-border: 1px solid red;
+/*border: 1px solid red;*/
 }
 
 .footer-mobile a:hover{
@@ -159,6 +159,7 @@ border: 1px solid red;
 .link-instagram {
   background: url(../images/icn-instagram.svg) no-repeat center; /* FF3.6-15 */
   height: 6vw !important;
+  background-size: contain;
 }
 
 .link-twitter {
@@ -303,7 +304,7 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 }
 
 .material-symbols-outlined{
-  font-size: 3vw !important;}
+  font-size: 8vw !important;}
 
   .container-bg{
 
