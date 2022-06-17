@@ -203,10 +203,12 @@ margin-bottom: 5vw;
 
   .title{font-size: 15vw;
     text-align: center;
+    color: #fff;
         }
 
   .desc {   font-size: 7vw;
     text-align: center;
+    color: #aaa;
         }
 
 .footer{
@@ -221,9 +223,9 @@ margin-bottom: 5vw;
 
   .container-bg{
 
- background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(top bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ background: -moz-linear-gradient(top, rgba(0,0,0,0) 40%, rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(top bottom, rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
   background-position: top center;
   background-repeat: no-repeat;
