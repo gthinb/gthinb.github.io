@@ -133,7 +133,7 @@ border-top: 1px solid #333;
 
 
 .footer-mobile a{
-   opacity: 30%;
+   opacity: 50%;
     -moz-transition: opacity 1s ease-in;
     -o-transition: opacity 1s ease-in;
     -webkit-transition: opacity 1s ease-in;
