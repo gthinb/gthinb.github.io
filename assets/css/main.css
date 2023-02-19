@@ -1,8 +1,10 @@
+
+
 html,body{
   height: 100%;
   text-align: center;
   background: #000;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Inter', sans-serif;, sans-serif;
 
   color: #fff;
   position: relative;
