@@ -58,7 +58,7 @@ input{
 .title {
 font-size: 6vw;
 text-align: center;
-font-weight: 600;
+font-weight: 500;
 }
 
 .desc {
@@ -67,6 +67,7 @@ font-size: 4vw;
 text-align: center;
 color: #666666;
 margin-bottom: 5vw;
+  font-weight: 300;
 }
 
 
@@ -243,10 +244,12 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
   .title{
     text-align: center;
+    font-weight: 400;
         }
 
   .desc {   
     text-align: center;
+       font-weight: 300;
         }
 
   .footer-desktop a{   
@@ -290,11 +293,13 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
   .title{font-size: 15vw;
     text-align: center;
     color: #fff;
+       font-weight: 400;
         }
 
   .desc {   font-size: 7vw;
     text-align: center;
     color: #aaa;
+       font-weight: 300;
         }
 
   .contactButton {
