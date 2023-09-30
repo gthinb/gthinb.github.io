@@ -1,18 +1,18 @@
 @font-face {
      font-family: Sentinel-Bold;
-     src: url(../fonts/Sentinel-Bold.woff);
+     src: url(../fonts/Sentinel/Sentinel-Bold.woff);
 }
 @font-face {
      font-family: Sentinel-Medium;
-     src: url(../fonts/Sentinel-Medium.woff);
+     src: url(../fonts/Sentinel/Sentinel-Medium.woff);
 }
 @font-face {
      font-family: Sentinel-Light;
-     src: url(../fonts/Sentinel-Light.woff);
+     src: url(../fonts/Sentinel/Sentinel-Light.woff);
 }
 @font-face {
      font-family: Sentinel-LightItalic;
-     src: url(../fonts/Sentinel-LightItalic.woff);
+     src: url(../fonts/Sentinel/Sentinel-LightItalic.woff);
 }
 
 
