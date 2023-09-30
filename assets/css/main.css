@@ -1,12 +1,20 @@
- @font-face {
-
-     font-family: Sentinel;
-
+@font-face {
+     font-family: Sentinel-Bold;
      src: url(../fonts/Sentinel-Bold.woff);
-
-     font-weight: bold;
-
 }
+@font-face {
+     font-family: Sentinel-Medium;
+     src: url(../fonts/Sentinel-Medium.woff);
+}
+@font-face {
+     font-family: Sentinel-Light;
+     src: url(../fonts/Sentinel-Light.woff);
+}
+@font-face {
+     font-family: Sentinel-LightItalic;
+     src: url(../fonts/Sentinel-LightItalic.woff);
+}
+
 
 html,body{
   height: 100%;
