@@ -37,9 +37,7 @@ a:hover{
   text-decoration: none;
   color: inherit;
 }
-input{
-  outline:none;
-}
+
 
 .container{
   position: absolute;
