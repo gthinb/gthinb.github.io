@@ -21,7 +21,6 @@ html,body{
   text-align: center;
   background: #000;
   font-family: 'Inter', sans-serif, sans-serif;
-
   color: #fff;
   position: relative;
  
@@ -71,18 +70,18 @@ a:hover{
 
 .title {
 font-family: Sentinel-Medium;
-font-size: 6.25rem;
+font-size: 8rem;
 text-align: center;
 font-weight: 500;
 }
 
 .desc {
 margin-top:0;
-font-size: 3vw;
+font-size: 6rem;
 text-align: center;
 color: #666666;
 margin-bottom: 5vw;
-  font-weight: 400;
+font-weight: 400;
 }
 
 
@@ -94,7 +93,7 @@ margin-bottom: 5vw;
 .contactButton a{
   background: none;
   cursor: pointer;
-    padding: 2vw 0;
+  padding: 2vw 0;
   }
 
 
@@ -127,7 +126,7 @@ margin-bottom: 5vw;
   text-align: center;
   color: #999;
  font-family: Sentinel-Light;
-    font-size: 1vw;
+font-size: 1rem;
 /*  background-color: red;*/
 
 }
