@@ -15,11 +15,16 @@
      src: url(../fonts/Sentinel/Sentinel-LightItalic.woff);
 }
 
+@font-face {
+    font-family: Hariston;
+    src: url(../fonts/Hariston/Hariston.woff);
+}
+
 
 html,body{
   height: 100%;
   text-align: center;
-  background: #000;
+  background: #fff;
   font-family: 'Inter', sans-serif, sans-serif;
   color: #fff;
   position: relative;
@@ -51,11 +56,11 @@ a:hover{
   display: block;
   z-index: 0;
 
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+50,0.75+100 */
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#000;; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#000;; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(top bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#000;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff000+0,000000+100&0+50,0.75+100 */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0) 40%, rgba(255,255,255,0.95) 100%),url(../images/bg.jpg),#fff;; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 40%,rgba(255,255,255,0.95) 100%),url(../images/bg.jpg),#fff;; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(top bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 40%,rgba(255,255,255,0.95) 100%),url(../images/bg.jpg),#fff;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff00000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
 
   background-position: center;
   background-repeat: no-repeat;
@@ -69,18 +74,20 @@ a:hover{
 
 
 .title {
-font-family: Sentinel-Medium;
-font-size: 9rem;
+font-family: Hariston;
+font-weight: normal;
+font-size: 20rem;
 text-align: center;
-font-weight: 500;
+color:red;
 }
 
 .desc {
 margin-top:0;
+     font-family: Sentinel-Medium;
 font-size: 3.5rem;
 text-align: center;
-color: #666666;
-margin-bottom: 5vw;
+color: #999;
+margin-bottom: 2vw;
 font-weight: 400;
 }
 
@@ -99,7 +106,7 @@ font-weight: 400;
 
 .material-symbols-outlined{
     font-size: 2vw !important;
-    color: #ddd;
+    color: #999;
    -webkit-transition: color 1s ease-out;
   -moz-transition: color 1s ease-out;
   -o-transition: color 1s ease-out;
@@ -107,7 +114,7 @@ font-weight: 400;
 }
 
 .material-symbols-outlined:hover {
-  color: #fff;
+  color: #333;
   font-variation-settings:
   'FILL' 1,
   'wght' 400,
@@ -134,11 +141,11 @@ font-size: 2rem;
 .footer-desktop  a:hover {
     -webkit-transition: color 1s;
     transition: color 1s;
-    color: #fff;
+    color: #333;
 }
 
 .footer-mobile{
-border-top: 1px solid #333;
+border-top: 1px solid #eee;
 
   display: flex;
   flex-direction: column;
@@ -258,12 +265,10 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
   .title{
     text-align: center;
-    font-weight: 500;
         }
 
   .desc {   
     text-align: center;
-       font-weight: 400;
         }
 
   .footer-desktop a{   
@@ -275,9 +280,9 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
     .container-bg{
 
- background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(top bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0) 40%, rgba(255,255,255,.5) 100%),url(../images/bg.jpg),#fff;; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 40%,rgba(255,255,255,.5) 100%),url(../images/bg.jpg),#fff;; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(top bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 40%,rgba(255,255,255,.5) 100%),url(../images/bg.jpg),#fff;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
   background-position: top center;
   background-repeat: no-repeat;
@@ -304,20 +309,16 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 }
      .material-symbols-outlined{font-size: 7vw !important;}
 
-  .title{font-size: 15vw;
-    text-align: center;
-    color: #fff;
-       font-weight: 500;
+  .title{
+    font-size: 20vw;
         }
 
-  .desc {   font-size: 7vw;
-    text-align: center;
-    color: #aaa;
-       font-weight: 400;
+  .desc {   
+    font-size: 5.5vw;
         }
 
   .contactButton {
-    margin-bottom: 14vw;
+    margin-bottom: 7vw;
   }
 
 .footer{
@@ -329,9 +330,9 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
   .container-bg{
 
- background: -moz-linear-gradient(top, rgba(0,0,0,0) 40%, rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;/* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(top bottom, rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%),url(../images/bg.jpg),#000;/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ background: -moz-linear-gradient(top, rgba(255,255,255,0) 40%, rgba(255,255,255,1) 100%),url(../images/bg.jpg),#fff; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,rgba(255,255,255,0) 40%,rgba(255,255,255,1) 100%),url(../images/bg.jpg),#fff;/* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(top bottom, rgba(255,255,255,0) 40%,rgba(255,255,255,1) 100%),url(../images/bg.jpg),#fff;/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
   background-position: top center;
   background-repeat: no-repeat;
