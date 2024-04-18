@@ -423,7 +423,7 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
  @media (max-width: 992px) {
 
   .page-title{
-  background: purple;
+/*  background: purple;*/
 
 }
 
@@ -462,9 +462,9 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
   background-repeat: no-repeat;
   background-attachment: fixed;
 
-  -webkit-background-size:  contain;
-  -moz-background-size:  contain;
-  -o-background-size:  contain;
+  -webkit-background-size:  90vh;
+  -moz-background-size:  90vh;
+  -o-background-size:  90vh;
     background-size:  90vh;
 }
 
@@ -476,8 +476,9 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
   .page-title{
     font-size: 3.2rem;
-  background: violet;
+ /* background: violet;*/
   overflow: visible;
+  padding: 0 2rem;
 }
 
 .footer-desktop{
@@ -519,13 +520,24 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
   background-repeat: no-repeat;
   background-attachment: fixed;
 
-  -webkit-background-size:  cover;
-  -moz-background-size:  cover;
-  -o-background-size:  cover;
+  -webkit-background-size:  90vh;
+  -moz-background-size:  90vh;
+  -o-background-size:  90vh;
   background-size:  90vh;
 }
 
 
   
+
+}
+
+
+@supports (-webkit-touch-callout: none) {
+.portfolio-container{background: blue;}
+
+}
+
+@supports not (-webkit-touch-callout: none) {
+.portfolio-container{background: yellow;}
 
 }
