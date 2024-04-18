@@ -88,7 +88,7 @@ font-family: Sentinel-Book;
 font-size: 1.8rem;
 height: 6vh;
 line-height: 6vh;
-background: yellow;
+background-color: #fff;
 color: #999;
 
   position: -webkit-sticky !important;
@@ -108,14 +108,20 @@ color: red;
 font-family: Sentinel-Bold !important;
 }
 
+header a:hover{
+color: red;
+}
+
 .page-title {
 font-family: Hariston;
 font-weight: normal;
 font-size: 2rem;
 text-align: center;
-color:red;
+color:black;
 mix-blend-mode: multiply;
 }
+
+
 
 .blog-container{
 padding: 0;
@@ -136,7 +142,7 @@ padding: 0rem 2rem 3rem 2rem;
 
 .blog-card{
   width: 100%;
-
+color: #fff;
 padding: 3rem;
 border-radius: 2rem;
 display: flex;
@@ -166,8 +172,8 @@ align-self: start;
   font-family: Sentinel-Medium;
   font-size: 2.5rem;
 
-  text-align: left;
-  color:black;
+color: #fff !important;
+text-align: left;
 align-self: start;
 }
 
@@ -175,10 +181,13 @@ align-self: start;
 
   font-family: Sentinel-light;
   font-size: 1.8rem;
-
+line-height: 2rem;
   text-align: left;
-  color:black;
+ margin: 1rem 0;
 align-self: start;
+
+color: rgba(255, 255, 255, 0.8);
+
 }
 
 
@@ -195,10 +204,9 @@ align-self: start;
   font-family: Sentinel-light;
   font-size: 1.5rem;
   padding: .25rem 1rem;
-  background: white;
-  opacity: 0.5;
+background-color: rgba(255, 255, 255, 0.2);
 
-  color:black;
+color: white;
 margin-right: .5rem;
 margin-top: .5rem;
 border-radius: 2rem;
@@ -208,14 +216,13 @@ border-radius: 2rem;
 
 .portfolio-container{
 background: red;
-border: 2px solid blue;
 height: 94vh;
 padding: 0;
 margin: 0;
 }
 
 
-.title {
+.container .title {
 font-family: Hariston;
 font-weight: normal;
 font-size: 20rem;
@@ -382,7 +389,7 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
 .page-title{
   padding: 0;
-  background: blue;
+
 }
 
 .footer-mobile{
@@ -418,7 +425,6 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
   .page-title{
   padding: 0;
-  background: purple;
 }
 
 .blog-card{
@@ -470,7 +476,6 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
   .page-title{
   padding: 0;
-  background: violet;
 }
 
 .footer-desktop{
