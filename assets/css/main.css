@@ -6,6 +6,16 @@
      font-family: Sentinel-Medium;
      src: url(../fonts/Sentinel/Sentinel-Medium.woff);
 }
+
+@font-face {
+     font-family: Sentinel-Book;
+     src: url(../fonts/Sentinel/Sentinel-Book.woff);
+}
+@font-face {
+     font-family: Sentinel-BookItalic;
+     src: url(../fonts/Sentinel/Sentinel-BookItalic.woff);
+}
+
 @font-face {
      font-family: Sentinel-Light;
      src: url(../fonts/Sentinel/Sentinel-Light.woff);
@@ -72,6 +82,138 @@ a:hover{
   background-size:  contain;
 }
 
+header{
+    
+font-family: Sentinel-Book;
+font-size: 1.8rem;
+height: 6vh;
+line-height: 6vh;
+background: yellow;
+color: #999;
+
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0;
+
+right: 0;
+
+left: 0;
+
+z-index: 999;
+
+}
+header a.active{
+text-decoration: underline;
+color: red;
+font-family: Sentinel-Bold !important;
+}
+
+.page-title {
+font-family: Hariston;
+font-weight: normal;
+font-size: 2rem;
+text-align: center;
+color:red;
+mix-blend-mode: multiply;
+}
+
+.blog-container{
+padding: 0;
+margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly:;
+}
+
+
+.blog-card-container{
+ display: flex;
+padding: 0rem 2rem 3rem 2rem;
+}
+
+
+.blog-card{
+  width: 100%;
+
+padding: 3rem;
+border-radius: 2rem;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.blog-card:hover{
+     -webkit-transition: color 5s ease-out;
+  -moz-transition: color 5s ease-out;
+  -o-transition: color 5s ease-out;
+  transition: color 5s ease-out;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.blog-card .icon{
+
+align-self: start;
+  font-size: 5rem;
+    width: 5rem;
+  margin-top: 2rem;
+}
+
+.blog-card .title{
+  float: left;
+  font-family: Sentinel-Medium;
+  font-size: 2.5rem;
+
+  text-align: left;
+  color:black;
+align-self: start;
+}
+
+.blog-card .descrption{
+
+  font-family: Sentinel-light;
+  font-size: 1.8rem;
+
+  text-align: left;
+  color:black;
+align-self: start;
+}
+
+
+.blog-card .tag-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+
+.blog-card .tag{
+ display: flex;
+  font-family: Sentinel-light;
+  font-size: 1.5rem;
+  padding: .25rem 1rem;
+  background: white;
+  opacity: 0.5;
+
+  color:black;
+margin-right: .5rem;
+margin-top: .5rem;
+border-radius: 2rem;
+
+}
+
+
+.portfolio-container{
+background: red;
+border: 2px solid blue;
+height: 94vh;
+padding: 0;
+margin: 0;
+}
+
 
 .title {
 font-family: Hariston;
@@ -105,7 +247,7 @@ font-weight: 400;
   }
 
 
-.material-symbols-outlined{
+.contactButton .material-symbols-outlined{
     font-size: 2vw !important;
     color: #999;
    -webkit-transition: color 1s ease-out;
@@ -114,7 +256,7 @@ font-weight: 400;
   transition: color 1s ease-out;
 }
 
-.material-symbols-outlined:hover {
+.contactButton .material-symbols-outlined:hover {
   color: #333;
   font-variation-settings:
   'FILL' 1,
@@ -133,7 +275,7 @@ font-weight: 400;
   padding-top: 10px;
   text-align: center;
   color: #999;
- font-family: Sentinel-LightItalic;
+ font-family: Sentinel-BookItalic;
 font-size: 2rem;
 /*  background-color: red;*/
 
@@ -238,6 +380,11 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
 @media (min-width: 1200px) {
 
+.page-title{
+  padding: 0;
+  background: blue;
+}
+
 .footer-mobile{
   display: none;
 }
@@ -246,23 +393,43 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
  @media (max-width: 1200px) {
 
+  .page-title{
+  padding: 0;
+  background: green;
+  overflow: visible;
+  width: auto;
+}
+
   .footer-mobile{
   display: none;
 }
 
    .footer-desktop a{  font-size: 1.5vw;}
 
-   .material-symbols-outlined{font-size: 3vw !important;}
+   .contactButton .material-symbols-outlined{font-size: 3vw !important;}
+
+
 
 
 }
 
 
  @media (max-width: 992px) {
+
+  .page-title{
+  padding: 0;
+  background: purple;
+}
+
+.blog-card{
+
+}
+
+
   .footer-mobile{
   display: none;
 }
-   .material-symbols-outlined{font-size: 4vw !important;}
+   .contactButton .material-symbols-outlined{font-size: 4vw !important;}
 
   .title{
     text-align: center;
@@ -300,6 +467,12 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 }
 
  @media (max-width: 768px) {
+
+  .page-title{
+  padding: 0;
+  background: violet;
+}
+
 .footer-desktop{
   display: none;
 }
@@ -308,7 +481,7 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
   display: block;
 
 }
-     .material-symbols-outlined{font-size: 7vw !important;}
+     .contactButton .material-symbols-outlined{font-size: 7vw !important;}
 
   .title{
     font-size: 20vw;
@@ -326,7 +499,7 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
   margin-bottom: 5vw;
 }
 
-.material-symbols-outlined{
+.contactButton .material-symbols-outlined{
   font-size: 8vw !important;}
 
   .container-bg{
