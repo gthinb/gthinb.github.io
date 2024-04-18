@@ -72,22 +72,22 @@ a:hover{
   background: linear-gradient(top bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 40%,rgba(255,255,255,0.95) 100%),url(../images/bg.jpg),#fff;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff00000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
 
-  background-position: center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
   -webkit-background-size:  contain;
   -moz-background-size:  contain;
   -o-background-size:  contain;
-  background-size:  contain;
+  background-size:  90vh;
 }
 
 header{
     
 font-family: Sentinel-Book;
 font-size: 1.8rem;
-height: 6vh;
-line-height: 6vh;
+height: 12vh;
+line-height: 12vh;
 background-color: #fff;
 color: #999;
 
@@ -115,10 +115,9 @@ color: red;
 .page-title {
 font-family: Hariston;
 font-weight: normal;
-font-size: 2rem;
+font-size: 4rem;
 text-align: center;
 color:black;
-mix-blend-mode: multiply;
 }
 
 
@@ -165,6 +164,7 @@ align-self: start;
   font-size: 5rem;
     width: 5rem;
   margin-top: 2rem;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .blog-card .title{
@@ -215,8 +215,8 @@ border-radius: 2rem;
 
 
 .portfolio-container{
-background: red;
-height: 94vh;
+
+height: 88vh;
 padding: 0;
 margin: 0;
 }
@@ -423,7 +423,8 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
  @media (max-width: 992px) {
 
   .page-title{
-  padding: 0;
+  background: purple;
+
 }
 
 .blog-card{
@@ -457,14 +458,14 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 40%,rgba(255,255,255,.5) 100%),url(../images/bg.jpg),#fff;; /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(top bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 40%,rgba(255,255,255,.5) 100%),url(../images/bg.jpg),#fff;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
-  background-position: top center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
   -webkit-background-size:  contain;
   -moz-background-size:  contain;
   -o-background-size:  contain;
-  background-size:  contain;
+    background-size:  90vh;
 }
 
   
@@ -474,7 +475,9 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
  @media (max-width: 768px) {
 
   .page-title{
-  padding: 0;
+    font-size: 3.2rem;
+  background: violet;
+  overflow: visible;
 }
 
 .footer-desktop{
@@ -512,14 +515,14 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
   background: -webkit-linear-gradient(top,rgba(255,255,255,0) 40%,rgba(255,255,255,1) 100%),url(../images/bg.jpg),#fff;/* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(top bottom, rgba(255,255,255,0) 40%,rgba(255,255,255,1) 100%),url(../images/bg.jpg),#fff;/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
-  background-position: top center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
   -webkit-background-size:  cover;
   -moz-background-size:  cover;
   -o-background-size:  cover;
-  background-size:  cover;
+  background-size:  90vh;
 }
 
 
