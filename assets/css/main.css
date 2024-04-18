@@ -140,13 +140,12 @@ padding: 0rem 2rem 3rem 2rem;
 
 
 .blog-card{
-  width: 100%;
+width: 100%;
 color: #fff;
 padding: 3rem;
 border-radius: 2rem;
 display: flex;
 flex-direction: column;
-
 }
 
 
@@ -161,10 +160,10 @@ flex-direction: column;
 .blog-card .icon{
 
 align-self: start;
-  font-size: 5rem;
-    width: 5rem;
-  margin-top: 2rem;
-  color: rgba(0, 0, 0, 0.5);
+font-size: 5rem;
+width: 5rem;
+margin-bottom: 1rem;
+color: rgba(0, 0, 0, 0.5);
 }
 
 .blog-card .title{
@@ -531,13 +530,47 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
 }
 
+.ios-portfolio{
+  display: none !important;
+}
 
 @supports (-webkit-touch-callout: none) {
-.portfolio-container{background: blue;}
+.portfolio-container .ios-portfolio{
+display: block;
+
+}
 
 }
 
 @supports not (-webkit-touch-callout: none) {
-.portfolio-container{background: yellow;}
+.portfolio-container{
+color:black;}
+
+.portfolio-container .ios-portfolio{
+display: block;
 
 }
+
+
+.ios-portfolio a{
+    font-family: Sentinel-Medium;
+  font-size: 2rem;
+  margin-top: 20vh;
+  color:black;
+  padding: 3rem;
+  background: #fff ;
+  border-radius: 1rem;
+  text-align: center;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  
+}
+
+.ios-portfolio .icon{
+
+font-size: 5rem;
+
+margin-top: 2rem;
+color: rgba(0, 0, 0, 0.5);
+}
+
+
