@@ -535,6 +535,7 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 }
 
 @supports (-webkit-touch-callout: none) {
+
 .portfolio-container .ios-portfolio{
 display: block;
 
@@ -543,14 +544,12 @@ display: block;
 }
 
 @supports not (-webkit-touch-callout: none) {
+
 .portfolio-container{
 color:black;}
 
 .portfolio-container .ios-portfolio{
 display: block;
-
-}
-
 
 .ios-portfolio a{
     font-family: Sentinel-Medium;
@@ -572,5 +571,10 @@ font-size: 5rem;
 margin-top: 2rem;
 color: rgba(0, 0, 0, 0.5);
 }
+
+}
+
+
+
 
 
