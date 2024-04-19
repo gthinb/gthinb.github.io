@@ -504,7 +504,7 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
     background-size:  90vh;
 }
 
-    .bg-img-test{
+/*    .bg-img-test{
       background: blue;
       }
     .container-bg{
@@ -513,7 +513,7 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
       -moz-background-size:  50vh;
       -o-background-size:  50vh;
         background-size:  50vh;
-    }
+    }*/
 
   
 
@@ -521,9 +521,9 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
  @media (max-width: 768px) {
 
-  .bg-img-test{
+/*  .bg-img-test{
     background: yellow;
-  }
+  }*/
 
   .page-title{
     font-size: 3.2rem;
