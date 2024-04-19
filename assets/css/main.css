@@ -440,7 +440,7 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
    .contactButton .material-symbols-outlined{font-size: 3vw !important;}
 
-         .bg-img-test{
+/*         .bg-img-test{
     background: green;
   }
     .container-bg{
@@ -449,7 +449,7 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
       -moz-background-size:  50vh;
       -o-background-size:  50vh;
         background-size:  50vh;
-    }
+    }*/
 
 
 }
