@@ -585,8 +585,8 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
 @supports (-webkit-touch-callout: none) {
 
-  .portfolio-container{
-background:red;}
+/*  .portfolio-container{
+background:red;}*/
 
 .portfolio-container .ios-portfolio{
 display: block !important;}
