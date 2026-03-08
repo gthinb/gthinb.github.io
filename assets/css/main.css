@@ -112,12 +112,17 @@ header a:hover{
 color: red;
 }
 
-.page-title {
+.header-link-home {
 font-family: Hariston;
 font-weight: normal;
 font-size: 4rem;
 text-align: center;
 color:black;
+width: 60%;
+}
+
+.header-link-blog{
+  width: 40%;
 }
 
 
@@ -359,8 +364,8 @@ border-top: 1px solid #eee;
   background-size: contain;
 }
 
-.link-twitter {
-background: url(../images/icn-twitter.svg) no-repeat center; /* FF3.6-15 */
+.link-blog {
+background: url(../images/icn-blog.svg) no-repeat center; /* FF3.6-15 */
 }
 
 
@@ -410,7 +415,7 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
 @media (min-width: 1200px) {
 
-.page-title{
+.header-link-home{
   padding: 0;
 
 }
@@ -426,11 +431,15 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
  @media (max-width: 1200px) {
 
-  .page-title{
+  .header-link-home{
   padding: 0;
   overflow: visible;
-  width: auto;
+  /*width: auto;*/
 }
+
+
+
+
 
   .footer-mobile{
   display: none;
@@ -457,10 +466,7 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 
  @media (max-width: 992px) {
 
-  .page-title{
-/*  background: purple;*/
 
-}
 
 .blog-card{
 
@@ -520,17 +526,21 @@ background: url(../images/icn-spotify.svg) no-repeat center; /* FF3.6-15 */
 }
 
  @media (max-width: 768px) {
+/*  MD   */
 
 /*  .bg-img-test{
     background: yellow;
   }*/
 
-  .page-title{
+  .header-link-home{
     font-size: 3.2rem;
  /* background: violet;*/
   overflow: visible;
   padding: 0 2rem;
+
 }
+
+
 
 .footer-desktop{
   display: none;
@@ -617,6 +627,20 @@ display: block !important; }
       -o-background-size:  50vh;
         background-size:  50vh;
     }*/
+
+}
+
+@media (max-width: 480px) {
+  /* Small Phone Styles */
+
+  .header-link-home {
+
+width: 70%;
+}
+
+.header-link-blog{
+  width: 30%;
+}
 
 }
 
